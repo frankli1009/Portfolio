@@ -1,0 +1,65 @@
+/*
+
+my own style
+
+*/
+
+hr.education {
+    width: 330px;
+}
+hr.workExperience {
+    width: 240px;
+}
+.timeline-body > ul > li {
+    line-height: 28px;
+    font-size: 15px;
+}
+#experience {
+/*  background: rgba(225, 225, 225, 0.8); */
+    color: inherit;
+}
+#experience .section-title h1 {
+    color: #ffffff;
+}
+.imgBook {
+    width: 250px;
+    height: 280px;
+}
+.wrapperImgProject {
+    margin-left: 1vw;
+}
+.progress {
+    width: 200px;
+}
+.technology-50 {
+    width: 50%;
+}
+.technology-70 {
+    width: 70%;
+}
+.technology-80 {
+    width: 80%;
+}
+.technology-90 {
+    width: 90%;
+}
+.boldSkill {
+    font-weight: bolder;
+}
+.nav-tabs > li > a {
+  	color: rgba(64, 64, 64, 1);
+}
+
+.nav-tabs > li > a:hover {
+    background-color: transparent;
+    color: rgba(0, 198, 215, 1);
+}
+#contact {
+    background-attachment: fixed;
+}
+.tab-content a {
+    cursor: pointer;
+}
+.tab-content a:hover {
+    color: rgba(84, 142, 186, 1); /*#548eba*/
+}
