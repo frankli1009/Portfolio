@@ -3,7 +3,24 @@
 my own style
 
 */
-
+#home {
+    background-image: url("../images/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#aboutme {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.aboutme {
+    position: relative;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    padding: 20px;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    text-align: left;
+}
 hr.education {
     width: 330px;
 }
@@ -21,10 +38,10 @@ hr.workExperience {
 #experience .section-title h1 {
     color: #ffffff;
 }
-.imgBook {
-    width: 250px;
-    height: 280px;
+#experience .head-experience {
+    float: none;
 }
+
 .wrapperImgProject {
     margin-left: 1vw;
 }
@@ -55,7 +72,7 @@ hr.workExperience {
     color: rgba(0, 198, 215, 1);
 }
 #contact {
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
 }
 .tab-content a {
     cursor: pointer;
@@ -63,3 +80,17 @@ hr.workExperience {
 .tab-content a:hover {
     color: rgba(84, 142, 186, 1); /*#548eba*/
 }
+#contact a {
+    color: rgba(225, 225, 225, 1);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+#contact a:hover {
+    color: rgba(84, 142, 186, 1);
+}
+
