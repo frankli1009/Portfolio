@@ -455,11 +455,13 @@ portfolio section
   background-color: #f6f6f6;
   text-align: center;
   }
+/*
 #portfolio .container {
   width: 100%;
   padding: 0;
   margin: 0;
 }
+*/
 #portfolio img {
   width: 100%;
   transition: all 0.4s ease-in-out;

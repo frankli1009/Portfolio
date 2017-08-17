@@ -31,15 +31,29 @@ hr.workExperience {
     line-height: 28px;
     font-size: 15px;
 }
+
 #experience {
 /*  background: rgba(225, 225, 225, 0.8); */
     color: inherit;
+    background-image: url("../images/experience-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#experience .container {
+  width: 98%;
+  padding: 10px;
+  margin: 10px;
 }
 #experience .section-title h1 {
     color: #ffffff;
 }
 #experience .head-experience {
     float: none;
+}
+span.projectTech > i {
+    font-size: 0.8em;
 }
 
 .wrapperImgProject {
@@ -92,5 +106,9 @@ hr.workExperience {
 }
 #contact a:hover {
     color: rgba(84, 142, 186, 1);
+}
+#contact .invalidInput {
+    border: 2px solid #f00;
+    background-color: #fee;
 }
 

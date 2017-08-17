@@ -41,7 +41,10 @@
 }
 
 .timeline-vert > li > .timeline-vert-panel {
-    width: 46%;
+    width: 44%;
+    width: calc((100% - 90px)/2);
+    width: -moz-calc((100% - 90px)/2);
+    width: -webkit-calc((100% - 90px)/2);
     float: left;
     border: 1px solid #d4d4d4;
     border-radius: 2px;
@@ -54,7 +57,7 @@
 
 .timeline-vert > li > .timeline-vert-panel:before {
     position: absolute;
-    top: 26px;
+    top: 10px;
     right: -15px;
     display: inline-block;
     border-top: 15px solid transparent;
@@ -71,7 +74,7 @@
 
 .timeline-vert > li > .timeline-vert-panel:after {
     position: absolute;
-    top: 27px;
+    top: 10px;
     right: -14px;
     display: inline-block;
     border-top: 14px solid transparent;
@@ -159,6 +162,7 @@
     }
 
     ul.timeline-vert > li > .timeline-vert-panel {
+        width: 73%;
         width: calc(100% - 90px);
         width: -moz-calc(100% - 90px);
         width: -webkit-calc(100% - 90px);
@@ -167,9 +171,7 @@
     ul.timeline-vert > li > .timeline-vert-badge {
         left: 15px;
         margin-left: 0;
-        top: auto;
-/*        top: 16px;*/
-        
+        top: auto;        
     }
 
     ul.timeline-vert > li > .timeline-vert-panel {
