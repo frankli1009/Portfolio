@@ -12,6 +12,10 @@ my own style
     background-attachment: fixed;
 }
 
+.nav>li>a {
+    padding: 10px 10px;
+}
+
 /* about me */
 
 #aboutme {
