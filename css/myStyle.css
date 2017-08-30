@@ -3,11 +3,17 @@
 my own style
 
 */
+
+/* home */
+
 #home {
     background-image: url("../images/home-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+/* about me */
+
 #aboutme {
     background-color: #f6f6f6;
     text-align: center;
@@ -21,9 +27,15 @@ my own style
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     text-align: left;
 }
+
+/* education */
+
 hr.education {
     width: 330px;
 }
+
+/* work experience */
+
 hr.workExperience {
     width: 240px;
 }
@@ -41,24 +53,27 @@ hr.workExperience {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #experience .container {
   width: 98%;
   padding: 10px;
   margin: 10px;
 }
+
 #experience .section-title h1 {
     color: #ffffff;
 }
+
 #experience .head-experience {
     float: none;
 }
+
+/* skills */
+
 span.projectTech > i {
     font-size: 0.8em;
 }
 
-.wrapperImgProject {
-    margin-left: 1vw;
-}
 .progress {
     width: 200px;
 }
@@ -77,6 +92,29 @@ span.projectTech > i {
 .boldSkill {
     font-weight: bolder;
 }
+
+/* portfolio projects */
+
+.flexdiv {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px; !important
+}
+
+.flexdivchld {
+    width: 86%;
+}
+
+.orderchld {
+    order: 0;
+}
+
+.wrapperImgProject {
+    margin-left: 1vw;
+    padding-top: 25px;
+}
 .nav-tabs > li > a {
   	color: rgba(64, 64, 64, 1);
 }
@@ -85,6 +123,13 @@ span.projectTech > i {
     background-color: transparent;
     color: rgba(0, 198, 215, 1);
 }
+
+.ultech {
+    line-height: 2em;
+}
+
+/* contact */
+
 #contact {
 /*    background-attachment: fixed;*/
 }
@@ -112,3 +157,14 @@ span.projectTech > i {
     background-color: #fee;
 }
 
+/* big screen or desktop */
+
+@media screen and (min-width: 992px) {
+    .flexdivchld {
+        width: 46%;
+    }
+    .orderchld {
+        order: 1;
+    }
+
+}

@@ -408,7 +408,7 @@ skills section
   background-color: rgba(00,00,00,0.6);
   position: absolute;
   color: #ffffff;
-  opacity: 0;
+  opacity: 0.9; /* origin is 0, but not good for mobile and pad/ipad (without hover) */
   max-width: 500px;
   width: 100%;
   height: 100%;
